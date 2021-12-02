@@ -2,8 +2,10 @@
  * Advent of Code  Year 2021  *
  ******************************/
 
-Day1.Challenge1();
-Day1.Challenge2();
+//Day1.Challenge1();
+//Day1.Challenge2();
+Day2.Challenge1();
+Day2.Challenge2();
 
 class Helper
 {

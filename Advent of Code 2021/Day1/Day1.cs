@@ -1,5 +1,4 @@
-﻿// Advent of Code. Day 1, Assignment 1.
-
+﻿
 class Day1
 {
     public static void Challenge1()
