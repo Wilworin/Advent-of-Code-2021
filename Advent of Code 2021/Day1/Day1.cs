@@ -32,14 +32,15 @@ class Day1
         Console.WriteLine(input.Length);
         int lastNumber = 999999999;
         int counter = 0;
+        int number = 0;
         for (int i = 0; i<input.Length-2;i++)
         {
-            Console.WriteLine(input[i]+" "+ input[i+1] +" "+ input[i+2]);
-            //if (number > lastNumber)
-            //{
-            //    counter++;
-            //}
-            //lastNumber = number;
+            number = input[i] + input[i+1] + input[i+2];
+            if (number > lastNumber)
+            {
+                counter++;
+            }
+            lastNumber = number;
         }
         Console.WriteLine("Day1. Challenge 2: " + counter);
     }
