@@ -9,7 +9,9 @@
 //Day3.Challenge1();
 //Day3.Challenge2();
 //Day4.Challenge1();
-Day4.Challenge2();
+//Day4.Challenge2();
+//Day6.Challenge1();
+Day6.Challenge2();
 
 class Helper
 {
